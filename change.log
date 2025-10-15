@@ -1,0 +1,12 @@
+
+13.10.2025
+version: ESS10UAe2_0.sav 
+- Added variable intlnga (Language of questionnaire).
+- Replaced value of variable name (Title of dataset) from ESS10e03_2 to ESS10UAe1.
+- Replaced value of variable edition (Edition) from 3.2 to 1.0.
+- Replaced value of variable proddate (Production date) from 02.11.2023 to 24.07.2024.
+- Deleted all country-specific variables for countries other than Ukraine (Party voted for in last national election, Which party feel closer to, Religion or denomination belonging to at present, Religion or denomination belonging to in the past, Highest level of education of respondent, partner, father, and mother, Age when completed full time education of respondent, partner, father, and mother).
+
+08.11.2024
+version: ESS Round 10 Ukraine.sav
+- Initial release.
