@@ -1,3 +1,7 @@
+05.12.2025
+version: ESS10UAe4_0.sav
+- Issues with the variables icvacc19, getavc19, and getnvc19 were fixed; they now correspond to the main ESS round 10 dataset.
+
 30.10.2025
 version: ESS10UAe3_0.sav
 - Added value label 'Other eastern orthodox churches (denominations)' to the country-specific variables rlgdnua (Religion or denomination belonging to at present) and rlgdeua (Religion or denomination belonging to in the past).
@@ -14,3 +18,4 @@ version: ESS10UAe2_0.sav
 08.11.2024
 version: ESS Round 10 Ukraine.sav
 - Initial release.
+
