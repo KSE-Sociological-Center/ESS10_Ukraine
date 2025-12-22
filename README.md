@@ -10,5 +10,5 @@ The fieldwork took place between 18 January and 8 February 2022 and was conducte
 The study was supported by a grant from the International Renaissance Foundation and the Embassy of the Kingdom of Sweden in Ukraine as part of the project "Ukraine in the European Social Survey 2021" (agreement signed on 15 November 2021).
 
 ## Related publications
-Moskotina, R. (2025). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 6 and 10). Zenodo. https://doi.org/10.5281/zenodo.18015364 (reproducible R code for building tables with variable distributions by ESS Rounds 6 and 10 is available in this repository; see the "Publications" folder). 
+Moskotina, R. (2025). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 6 and 10). Zenodo. https://doi.org/10.5281/zenodo.18015364 (*reproducible R code for building tables with variable distributions by ESS Rounds 6 and 10 is available in this repository; see the "Publications" folder*). 
 
