@@ -3,11 +3,10 @@
 ############################################################
 
 # ==========================================================
-# 0) Packages
+# 0) Packages (install all of them + Hmisc package before attaching)
 # ==========================================================
 
 library(haven)
-library(arrow)
 library(labelled)
 library(gsheet)
 library(questionr)
@@ -120,7 +119,7 @@ perc6 <- lapply(
       round(3) |>
       as.data.frame.matrix(perc6[[x]]) * 100
     perc6[[x]] <- cbind(perc6[[x]], perc6[[x]][, "Refusal"] + perc6[[x]][, "No answer"])
-    perc6[[x]] <- perc6[[x]][, c(-length(perc6[[x]]) + 1, -length(perc6[[x]]) + 3)]
+    perc6[[x]] <- perc6[[x]][, !colnames(perc6[[x]]) %in% c("Refusal", "No answer")]
   }
 )
 
@@ -142,7 +141,7 @@ perc10 <- lapply(
         round(3) * 100
     )
     perc10[[x]] <- cbind(perc10[[x]], perc10[[x]][, "Refusal"] + perc10[[x]][, "No answer"])
-    perc10[[x]] <- perc10[[x]][, c(-length(perc10[[x]]) + 1, -length(perc10[[x]]) + 3)]
+    perc10[[x]] <- perc10[[x]][, !colnames(perc10[[x]]) %in% c("Refusal", "No answer")]
   }
 )
 
@@ -179,6 +178,8 @@ for (i in seq_along(perc)) {
 # ==========================================================
 # 11) Prepare variables for means (remove missing values)
 # ==========================================================
+
+ESS10_an$wkhct <- labelled_spss(ESS10_an$wkhct, na_range = c(555, 999))
 
 for (i in cm) {
   ESS6_an[, i]     <- zap_missing(ESS6_an[, i])
@@ -315,7 +316,7 @@ percm6 <- lapply(
       round(3) |>
       as.data.frame.matrix(percm6[[x]]) * 100
     percm6[[x]] <- cbind(percm6[[x]], percm6[[x]][, "Refusal"] + percm6[[x]][, "No answer"])
-    percm6[[x]] <- percm6[[x]][, c(-length(percm6[[x]]) + 1, -length(percm6[[x]]) + 3)]
+    percm6[[x]] <- percm6[[x]][, !colnames(percm6[[x]]) %in% c("Refusal", "No answer")]
   }
 )
 
@@ -337,7 +338,7 @@ percm10 <- lapply(
         round(3) * 100
     )
     percm10[[x]] <- cbind(percm10[[x]], percm10[[x]][, "Refusal"] + percm10[[x]][, "No answer"])
-    percm10[[x]] <- percm10[[x]][, c(-length(percm10[[x]]) + 1, -length(percm10[[x]]) + 3)]
+    percm10[[x]] <- percm10[[x]][, !colnames(percm10[[x]]) %in% c("Refusal", "No answer")]
   }
 )
 
@@ -358,7 +359,7 @@ percm <- lapply(
 )
 
 # ==========================================================
-# 19) Prepare pm variables for means (zap missing)
+# 19) Prepare variables for means (remove missing values)
 # ==========================================================
 
 for (i in cpm) {
