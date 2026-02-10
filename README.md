@@ -11,4 +11,5 @@ The study was supported by a grant from the International Renaissance Foundation
 
 ## Related publications
 Moskotina, R. (2026). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 6 and 10). Zenodo. https://doi.org/10.5281/zenodo.18015363 (*reproducible R code for building tables with variable distributions by ESS Rounds 6 and 10 is available in this repository; see the "Publications" folder*). 
+Moskotina, R. (2026). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 10 and 11). Zenodo. https://doi.org/10.5281/zenodo.18595343 (*reproducible R code for building tables with variable distributions by ESS Rounds 10 and 11 is available in this repository; see the "Publications" folder*).
 
