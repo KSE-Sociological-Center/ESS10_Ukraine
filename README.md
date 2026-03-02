@@ -14,3 +14,4 @@ The study was supported by a grant from the International Renaissance Foundation
 
 2. Moskotina, R. (2026). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 10 and 11). Zenodo. https://doi.org/10.5281/zenodo.18595343 (*reproducible R code for building tables with variable distributions by ESS Rounds 10 and 11 is available in this repository; see the "Publications" folder*).
 
+3. Moskotina, R. (2026). War Beyond Borders: How Does It Echo Across Europe? URL: https://voxukraine.org/en/war-beyond-borders-how-does-it-echo-across-europe
