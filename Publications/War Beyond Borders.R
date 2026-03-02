@@ -21,8 +21,8 @@ library(modelsummary)
 library(survey)
 library(flextable)
 
-# Load ESS dataset (replace with your local path)
-load("INSERT YOUR PATHWAY/Data_ESS.RData")
+# Load ESS dataset (replace with your local path) which includes data_ESS dataframe
+load("INSERT YOUR PATHWAY/War Beyond Borders_Data.RData")
 
 # Create copy used later for appendix analyses
 data_ESS_app <- data_ESS
@@ -438,4 +438,5 @@ std_period_coefs |>
   
 
 # All effects are small in magnitude, including statistically significant ones
+
 # The most noticeable changes are observed for attitudes toward European unification, which increase during the 1-3 month and 3-6 month periods compared to the pre-invasion baseline
