@@ -2,6 +2,8 @@
 
 This section features presentations delivered at various events, showcasing findings from the 6th, 10th, and 11th rounds of the ESS (as well as additional analyses beyond these rounds). The presentations were created in Canva and include interactive charts and tables.
 
+*The organization of these events was supported by Documenting Ukraine, a project of the Institute for Human Sciences, IWM Vienna.*
+
 | Event | Presentation name |
 |-------------------|---------------|
 | Congress of the Sociological Association of Ukraine “Society and Sociology in an Exponential World: Research Challenges, Opportunities, Prospects” (November 20-21, 2025)| [Ukraine Returns to ESS: The Path Back and Prospects for Cooperation (In Ukrainian)](https://www.canva.com/design/DAG2-Vi9zYQ/p5OzO-_G1_laqzS1CwC2-g/edit?utm_content=DAG2-Vi9zYQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)|
