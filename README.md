@@ -10,8 +10,13 @@ The fieldwork took place between 18 January and 8 February 2022 and was conducte
 The study was supported by a grant from the International Renaissance Foundation and the Embassy of the Kingdom of Sweden in Ukraine as part of the project "Ukraine in the European Social Survey 2021" (agreement signed on 15 November 2021).
 
 ## Related publications
+
+**Supported by Documenting Ukraine, a project of the Institute for Human Sciences, IWM Vienna**
 1. Moskotina, R. (2026). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 6 and 10). Zenodo. https://doi.org/10.5281/zenodo.18015363 (*reproducible R code for building tables with variable distributions by ESS Rounds 6 and 10 is available in this repository; see the "Publications" folder*). 
 
 2. Moskotina, R. (2026). Social changes in Ukraine and Europe: Evidence from the European Social Survey (rounds 10 and 11). Zenodo. https://doi.org/10.5281/zenodo.18595343 (*reproducible R code for building tables with variable distributions by ESS Rounds 10 and 11 is available in this repository; see the "Publications" folder*).
 
 3. Moskotina, R. (2026). War Beyond Borders: How Does It Echo Across Europe? URL: https://voxukraine.org/en/war-beyond-borders-how-does-it-echo-across-europe (*dataset and reproducible R code is available in this repository; see the "Publications" folder*).
+
+**Other publications**
+1.  Moskotina, R. (2026). Linear or U-shaped? Age and subjective well-being in Ukraine. *Sociology: Theory, Methods, Marketing*, 1, 128–139, https://doi.org/10.15407/sociology2026.01.128
