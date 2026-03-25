@@ -10,7 +10,7 @@ library(DBM.functions)
 
 # ── 0. Data import ────────────────────────────────────────────────────────
 # userId is available in your profile at https://ess.sikt.no (registration required)
-user_id <- "62a78a85-3cae-494c-8807-346f00b3734c"
+user_id <- "Insert you user ID"
 
 ess_api_url <- function(doi) {
   paste0("https://api.ess.sikt.no/v1/data/dataFile/", doi,
