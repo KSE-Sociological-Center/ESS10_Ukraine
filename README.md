@@ -20,3 +20,4 @@ The study was supported by a grant from the International Renaissance Foundation
 
 **Other publications**
 1.  Moskotina, R. (2026). Linear or U-shaped? Age and subjective well-being in Ukraine. *Sociology: Theory, Methods, Marketing*, 1, 128–139, https://doi.org/10.15407/sociology2026.01.128 [In Ukrainian] (*dataset and reproducible R code is available in this repository; see the "Publications" folder*).
+2.  Karakai, D., Moskotina, R. (2024). Religious involvement over time: Assessing measurement invariance of the Religious Involvement scale in Ukraine. *Sociology: Theory, Methods, Marketing*, 4, 96–110, https://doi.org/10.15407/sociology2024.04.096 [In Ukrainian] (*dataset and reproducible R code is available in this repository; see the "Publications" folder*).
