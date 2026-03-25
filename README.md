@@ -19,4 +19,4 @@ The study was supported by a grant from the International Renaissance Foundation
 3. Moskotina, R. (2026). War Beyond Borders: How Does It Echo Across Europe? URL: https://voxukraine.org/en/war-beyond-borders-how-does-it-echo-across-europe (*dataset and reproducible R code is available in this repository; see the "Publications" folder*).
 
 **Other publications**
-1.  Moskotina, R. (2026). Linear or U-shaped? Age and subjective well-being in Ukraine. *Sociology: Theory, Methods, Marketing*, 1, 128–139, https://doi.org/10.15407/sociology2026.01.128
+1.  Moskotina, R. (2026). Linear or U-shaped? Age and subjective well-being in Ukraine. *Sociology: Theory, Methods, Marketing*, 1, 128–139, https://doi.org/10.15407/sociology2026.01.128 [In Ukrainian] (*dataset and reproducible R code is available in this repository; see the "Publications" folder*).
