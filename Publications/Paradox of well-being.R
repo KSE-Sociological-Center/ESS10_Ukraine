@@ -95,7 +95,7 @@ data_ESS <- data_ESS %>%
 cat("=== Mean age by round ===\n")
 tapply(data_ESS$age, data_ESS$period, mean, na.rm = TRUE) |> round(2) |> print()
 
-cat("=== Sex distribution (%) ===\n")
+cat("=== Gender distribution (%) ===\n")
 table(data_ESS$gender, data_ESS$period) |> prop.table(2) |> round(3) * 100
 
 cat("=== Mean happiness by round ===\n")
@@ -123,10 +123,10 @@ for (p in levels(data_ESS$period)) {
   cat("\n=== Round", p, "===\n")
   idx <- !is.na(data_ESS$period) & data_ESS$period == p & !is.na(data_ESS$gender)
 
-  cat("Happiness by sex:\n")
+  cat("Happiness by gender:\n")
   tapply(data_ESS$happy[idx], data_ESS$gender[idx], mean, na.rm = TRUE) |> round(2) |> print()
 
-  cat("Life satisfaction by sex:\n")
+  cat("Life satisfaction by gender:\n")
   tapply(data_ESS$sat[idx], data_ESS$gender[idx], mean, na.rm = TRUE) |> round(2) |> print()
 
   cat("Mann-Whitney test (happiness):\n")
