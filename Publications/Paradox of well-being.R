@@ -32,11 +32,11 @@ vars <- c("essround", "cntry", "yrbrn", "agea", "gndr", "stflife", "happy")
 
 # DOIs for ESS integrated files (all countries) — current editions:
 rounds_doi <- c(
-  "10.21338/ess2e03_6",   # round 2, 2004
-  "10.21338/ess3e03_7",   # round 3, 2006
-  "10.21338/ess4e04_5",   # round 4, 2008
-  "10.21338/ess5e03_4",   # round 5, 2010
-  "10.21338/ess6e02_7"    # round 6, 2012
+  "10.21338/ess2e03_6",   # round 2, 2005
+  "10.21338/ess3e03_7",   # round 3, 2006-2007
+  "10.21338/ess4e04_5",   # round 4, 2009
+  "10.21338/ess5e03_4",   # round 5, 2011
+  "10.21338/ess6e02_7"    # round 6, 2013
 )
 
 # Download rounds 2–6: keep only Ukraine (cntry == "UA")
@@ -66,7 +66,7 @@ data_ESS <- data_raw %>%
     sat    = as.numeric(stflife),
     happy  = as.numeric(happy),
     yrbrn  = as.numeric(yrbrn),
-    # Sex: Female is the reference category
+    # Gender: Female is the reference category
     gender = factor(
       case_when(gndr == 1 ~ "Male", gndr == 2 ~ "Female"),
       levels = c("Female", "Male")
